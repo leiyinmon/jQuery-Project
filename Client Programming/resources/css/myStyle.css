@@ -1,0 +1,312 @@
+/* Style for Background images */
+
+#home {
+    background-image: url('../img/HomeImg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about {
+    background-image: url('../img/AboutImg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ug {
+    background-image: url('../img/undergrad.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#grad {
+    background-image: url('../img/gradImage.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#min {
+    background-image: url('../img/minorImage.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#emp {
+    background-image: url('../img/employment.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#JobMap {
+    background-image: url('../img/mapImage.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#job {
+    background-image: url('../img/coopImage.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ppl {
+    background-image: url('../img/facImage.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ra {
+    background-image: url('../img/FacResImage.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#rbf {
+    background-image: url('../img/research.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#MapBox {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+iframe {
+	 height: 600px;
+	 width: 900px;
+	 border: none;
+}
+
+/*Style for main page titles*/
+.pageTitleContainer {
+    display: flex;
+    width: 100vw;
+    justify-content: flex-end;
+}
+
+.pageTitle {    
+    position: absolute;
+    top: 3%;
+    padding-right: 5%;
+    color: #ECEFF1;
+    text-shadow: 2px 2px #000000;
+    font-size: 2em;
+    z-index: 999;
+}
+h3 {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.singleLine {
+    display: inline;
+    margin: 1%;
+    padding: 1%;
+}
+
+/*Textboxes for contents*/
+#mainHead {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3.5em;
+    color: brown;
+}
+#scrolldown {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+#aboutBox {
+    margin: auto 20% auto;
+    20%;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+}
+.etBox {
+    background-color: #FF9800;
+    color: #5D4037;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .3s ease-in-out;
+    vertical-align: middle;
+}
+.etBox:hover {
+    transform: scale(1.2);
+}
+.ctBox {
+    text-align: center;
+    background-color: #4CAF50;
+    color: #5D4037;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .3s ease-in-out;
+    vertical-align: middle
+}
+.ctBox:hover {
+    transform: scale(1.2);
+}
+#coopBox {
+    width: 100%;
+    text-align: center;
+}
+
+/*boxes in undergrad and grad*/
+#undergrad, #graduate, #minor, #employment {
+    width: 100%;
+    text-align: center;
+}
+.UTinyBox:hover {
+    transform: scale(1.2);
+}
+.UTinyBox {
+    display: inline-block;
+    margin-left: 4%;
+    margin-right: auto;
+    margin-top: 20%;
+    max-height: 20%;
+    max-width: 25%;
+    color: #a95d11;
+    background-color: #D7CCC8;
+    border-radius: 20px;
+    opacity: 0.7;
+    padding: 0.5%;
+    transition: all .3s ease-in-out;
+    font-size: 1em;
+}
+.subtitle {
+    padding: 1%;
+    color: #3f3f3f;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.empl, #eDiv, #carDiv {
+    background-color: #795548;
+    border-radius: 5px;
+    opacity: 0.7;
+    margin-top: 1%;
+    color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.7em;
+    padding: 5px;
+}
+
+/*Boxes in minor*/
+.minorBox {
+    display: inline-block;
+    margin-left: 2%;
+    margin-right: auto;
+    margin-top: 5%;
+    max-height: 15%;
+    max-width: 22%;
+    color: #a95d11;
+    background-color: #D7CCC8;
+    border-radius: 20px;
+    opacity: 0.8;
+    padding: 0.5%;
+    font-size: 1em;
+    transition: all .3s ease-in-out;
+}
+.minorBox:hover {
+    transform: scale(1.2);
+}
+
+/*Boxes in Employer*/
+.statsBox {
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: auto;
+    margin-top: 8%;
+    height: 30%;
+    width: 20%;
+    color: #a95d11;
+    background-color: #D7CCC8;
+    border-radius: 20px;
+    opacity: 0.6;
+    padding: 20px;
+}
+.cBox {
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: auto;
+    margin-top: 5%;
+    max-height: 15vh;
+    max-width: 18vw;
+    padding: 5px;
+}
+.spin {
+    position: absolute;
+    z-index: 999;
+    left: 50%;
+    margin-right: auto;
+}
+.facImg {
+    display: inline-flex;
+    margin-left: 3%;
+    margin-bottom: 1%;
+    border-radius: 10px;
+    border-width: medium;
+    border-color: #000000;
+    transition: all .3s ease-in-out;
+}
+.facImg:hover {
+    transform: scale(1.2);
+}
+.liItems {
+    font-size: 0.7em;
+    font-family: 'Trebuchet';
+    margin-top: 10px;
+    color: gray;
+}
+.inFancyHeading {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+}
+
+/*accordion styling*/
+#accordion {
+    width: 90%;
+    height: 90%;
+	margin-left: 50px;
+	margin-top: 20px;
+    font-size: 0.8em;
+}
+#accordion .ui-accordion-content {
+    width: 100%;
+    background-color: #f3f3f3;
+    color: #777;
+    font-size: 10pt;
+    line-height: 16pt;
+	margin: 0;
+    padding: 20px;
+}
+
+#accordion .ui-accordion-header {
+    background-color: #F5CBA7;
+    margin: 0px;
+}
+
